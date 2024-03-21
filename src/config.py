@@ -17,6 +17,8 @@ class Config:
     BLACK = (0, 0, 0)
     RED = (255, 0, 0)
     YELLOW = (255, 255, 0)
+    SQUARESIZE = 100
+    RADIUS = int(SQUARESIZE/2 - 5)
 
     row_count = 6
     column_count = 7
